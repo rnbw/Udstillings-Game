@@ -33,7 +33,7 @@ public class BuildingGenerator : MonoBehaviour {
         buildingWidth = Random.Range(2, 8);
         if (buildingWidth == 2) { buildingWidth = Random.Range(2, 8); }
 
-        buildingHeight = 40;
+        buildingHeight = 79;
         GameObject go = this.gameObject;
 
         go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y, go.transform.position.y);
@@ -50,7 +50,7 @@ public class BuildingGenerator : MonoBehaviour {
                         GenerateBuildingTile("TopLeft", x, y, buildingSpritesTopLeft, true, 0);
                         if (buildingType == 1)
                         {
-                            GenerateBuildingTile("LeftDeco", x, y, buildingSpritesDecoLeft, false, 0.02f);
+                            GenerateBuildingTile("LeftDeco", x, y, buildingSpritesDecoLeft, false, 0.1f);
                         }
 
                     }
@@ -59,7 +59,7 @@ public class BuildingGenerator : MonoBehaviour {
                         GenerateBuildingTile("TopMiddle", x, y, buildingSpritesTop, true, 0);
                         if (buildingType == 1)
                         {
-                            GenerateBuildingTile("Deco", x, y, buildingSpritesDecoMiddle, false, 0.02f);
+                            GenerateBuildingTile("Deco", x, y, buildingSpritesDecoMiddle, false, 0.1f);
                         }
                     }
                     else if (x == buildingWidth)
@@ -68,7 +68,7 @@ public class BuildingGenerator : MonoBehaviour {
 
                         if (buildingType == 1)
                         {
-                            GenerateBuildingTile("RightDeco", x, y, buildingSpritesDecoRight, false, 0.02f);
+                            GenerateBuildingTile("RightDeco", x, y, buildingSpritesDecoRight, false, 0.1f);
                         }
                     }
                     else return;
@@ -141,13 +141,14 @@ public class BuildingGenerator : MonoBehaviour {
 
         int endBlock = spriteArray.Length;
         GameObject clone = new GameObject();
+        clone.layer = 8;
         clone.transform.parent = this.transform;
         clone.name = name + x + y;
         clone.transform.position = new Vector3(this.transform.position.x + x, this.transform.position.y - y, this.transform.position.z - zOffset);
         SpriteRenderer cloneSR = clone.AddComponent(typeof(SpriteRenderer)) as SpriteRenderer;
         int random = Random.Range(0, endBlock);
         cloneSR.sprite = spriteArray[random];
-        cloneSR.color = new Color(1f - (shadowAmount * y), 1f - (shadowAmount * y), 1f - (shadowAmount * y));
+        cloneSR.color = new Color(1f - (shadowAmount * y), 1f - (shadowAmount * y), 1f - (shadowAmount * y * 0.8f));
         if (collider)
         {
             BoxCollider2D col = clone.AddComponent(typeof(BoxCollider2D)) as BoxCollider2D;
@@ -158,13 +159,15 @@ public class BuildingGenerator : MonoBehaviour {
     }
     void GenerateWindow(string name, int x, int y, Sprite[] spriteArray, bool collider, float zOffset)
     {
+
         GameObject clone = new GameObject();
+        clone.layer = 8;
         clone.transform.parent = this.transform;
         clone.name = name + x + y;
         clone.transform.position = new Vector3(this.transform.position.x + x, this.transform.position.y - y, this.transform.position.z - zOffset);
         SpriteRenderer cloneSR = clone.AddComponent(typeof(SpriteRenderer)) as SpriteRenderer;
         cloneSR.sprite = spriteArray[buildingType];
-        cloneSR.color = new Color(1f - (shadowAmount * y ), 1f - (shadowAmount * y ), 1f - (shadowAmount * y ));
+        cloneSR.color = new Color(1f - (shadowAmount * y ), 1f - (shadowAmount * y ), 1f - (shadowAmount * y * 0.8f ));
     }
     
 }
