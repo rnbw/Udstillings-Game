@@ -8,18 +8,18 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1912949846000826}
-  m_IsPrefabParent: 1
---- !u!1 &1912949846000826
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1995801817564518}
+  m_IsPrefabAsset: 1
+--- !u!1 &1995801817564518
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
-  - component: {fileID: 4634668236562956}
-  - component: {fileID: 114752362304215698}
+  - component: {fileID: 4062215469537958}
+  - component: {fileID: 114458457664963982}
   m_Layer: 0
   m_Name: BuildingGenerator
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4634668236562956
+--- !u!4 &4062215469537958
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1912949846000826}
+  m_GameObject: {fileID: 1995801817564518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.04, y: 5.38, z: -1.0677743}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114752362304215698
+--- !u!114 &114458457664963982
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1912949846000826}
+  m_GameObject: {fileID: 1995801817564518}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cada34c51f740264fb6d4e3a1b47a416, type: 3}
@@ -79,3 +79,12 @@ MonoBehaviour:
   buildingSpritesBandMiddle:
   - {fileID: 21300012, guid: 3bb8cf4ba3230a0429567ed5cb1f1340, type: 3}
   - {fileID: 21300010, guid: 3bb8cf4ba3230a0429567ed5cb1f1340, type: 3}
+  buildingSpritesDecoRight:
+  - {fileID: 21300006, guid: 4e1dc65114edade4a941c0aafb646073, type: 3}
+  buildingSpritesDecoLeft:
+  - {fileID: 21300000, guid: 4e1dc65114edade4a941c0aafb646073, type: 3}
+  buildingSpritesDecoMiddle:
+  - {fileID: 21300004, guid: 4e1dc65114edade4a941c0aafb646073, type: 3}
+  - {fileID: 21300002, guid: 4e1dc65114edade4a941c0aafb646073, type: 3}
+  shadowAmount: 0.02
+  emptyGameObject: {fileID: 0}
