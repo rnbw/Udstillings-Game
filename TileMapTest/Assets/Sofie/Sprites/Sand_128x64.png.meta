@@ -1,31 +1,35 @@
 fileFormatVersion: 2
-guid: a9f3bfebf2864ee41b8d3aa045c48d46
+guid: c839e8921b5fb24469ec0d96d5548143
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Hand_0
-    21300002: Hand_1
-    21300004: Hand_2
-    21300006: Hand_3
-    21300008: Hand_4
-    21300010: Hand_5
-    21300012: Hand_6
-    21300014: Hand_7
-    21300016: Hand_8
-    21300018: Hand_9
-    21300020: Hand_10
-    21300022: Hand_11
-    21300024: Hand_12
-    21300026: Hand_13
-    21300028: Hand_14
-    21300030: Hand_15
-    21300032: Hand_16
-    21300034: Hand_17
-    21300036: Hand_18
-    21300038: Hand_19
-    21300040: Hand_20
-    21300042: Hand_21
-    21300044: Hand_22
-    21300046: Hand_23
+    21300000: Sand_128x64_0
+    21300002: Sand_128x64_1
+    21300004: Sand_128x64_2
+    21300006: Sand_128x64_3
+    21300008: Sand_128x64_4
+    21300010: Sand_128x64_5
+    21300012: Sand_128x64_6
+    21300014: Sand_128x64_7
+    21300016: Sand_128x64_8
+    21300018: Sand_128x64_9
+    21300020: Sand_128x64_10
+    21300022: Sand_128x64_11
+    21300024: Sand_128x64_12
+    21300026: Sand_128x64_13
+    21300028: Sand_128x64_14
+    21300030: Sand_128x64_15
+    21300032: Sand_128x64_16
+    21300034: Sand_128x64_17
+    21300036: Sand_128x64_18
+    21300038: Sand_128x64_19
+    21300040: Sand_128x64_20
+    21300042: Sand_128x64_21
+    21300044: Sand_128x64_22
+    21300046: Sand_128x64_23
+    21300048: Sand_128x64_24
+    21300050: Sand_128x64_25
+    21300052: Sand_128x64_26
+    21300054: Sand_128x64_27
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -69,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hand_0
+      name: Sand_128x64_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 158
-        width: 32
-        height: 32
+        y: 256
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,19 +148,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dcbea8a8e4ab3e4684eef185652bf06
+      spriteID: 0d122fcdf87186f428515491d93aef0f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_1
+      name: Sand_128x64_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 158
-        width: 32
-        height: 32
+        x: 128
+        y: 256
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,19 +168,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2caa5e418cebea44b9616f83e341a2e3
+      spriteID: 4b45ab67d417c0648888b4cb6bd1e9c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_2
+      name: Sand_128x64_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 158
-        width: 32
-        height: 32
+        x: 256
+        y: 256
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,19 +188,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fc4d6d7a954a67439e8e2a5c513d6bc
+      spriteID: 57d81846737a4f3459b28418f8ea09d4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_3
+      name: Sand_128x64_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 158
-        width: 32
-        height: 32
+        x: 384
+        y: 256
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,19 +208,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b5276eb0de8314a9f4f9d58d5897bb
+      spriteID: 543d892c98bdec341843443ab447c295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_4
+      name: Sand_128x64_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 126
-        width: 32
-        height: 32
+        x: 512
+        y: 256
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,19 +228,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4d7baf172e4d88469ea094be1a66c38
+      spriteID: c0a9ecb8ed76305429beb31c6af89a38
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_5
+      name: Sand_128x64_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 126
-        width: 32
-        height: 32
+        x: 640
+        y: 256
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,59 +248,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c93b834dd8475341ad6cb13b479a21e
+      spriteID: 13695355407ebf74cafe8343c4aa3ee4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 126
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 318494d06666a504098d86663464bd9b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 126
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbc454ae8ebd6764895280013a28e703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand_8
+      name: Sand_128x64_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 94
-        width: 32
-        height: 32
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,19 +268,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7527f300c36d07845839613c60f7af57
+      spriteID: dfb59c42d051e474295a729de4408382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_9
+      name: Sand_128x64_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 94
-        width: 32
-        height: 32
+        x: 128
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,19 +288,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d69d5656c5b0c84da8570bcb11df64a
+      spriteID: 95b4ee42ead73a14c84a620d35ef3edb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_10
+      name: Sand_128x64_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 94
-        width: 32
-        height: 32
+        x: 256
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,19 +308,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce6ebe6d358bfc843b3c63321ed9ebb5
+      spriteID: 2bbe8a388f9dd8146a8c57b00265cf15
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_11
+      name: Sand_128x64_9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 94
-        width: 32
-        height: 32
+        x: 384
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,19 +328,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85fdae0a74e769347b51bb42e97339bd
+      spriteID: ed88819c225ea0243b81a5947e9b3b2f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_12
+      name: Sand_128x64_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 62
-        width: 32
-        height: 32
+        x: 512
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,19 +348,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c8e66585608d15428a2b979f0b2955c
+      spriteID: 81692ad2499f63a4ebc19043057daf5a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_13
+      name: Sand_128x64_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 62
-        width: 32
-        height: 32
+        x: 640
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,59 +368,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ceb866bc26db92438a28b19aaf2a00d
+      spriteID: 7f7913b8f491dca4a9b5253c28e68614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_14
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 62
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc325eb161228f94da2fbff658c74df5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand_15
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 62
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7e7433482dfd98478357b3c33f3a090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hand_16
+      name: Sand_128x64_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 30
-        width: 32
-        height: 32
+        y: 128
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,19 +388,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ed3c78d0f86c447bf1644b8c694a04
+      spriteID: fb8d36201e86a444ca4c7c9080fd99ef
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_17
+      name: Sand_128x64_13
       rect:
         serializedVersion: 2
-        x: 32
-        y: 30
-        width: 32
-        height: 32
+        x: 128
+        y: 128
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,19 +408,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0cf5a1565f7b544298f99f3cb515993
+      spriteID: 9a3be23fe4528e946b0d0c8e37fe9ea8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_18
+      name: Sand_128x64_14
       rect:
         serializedVersion: 2
-        x: 64
-        y: 30
-        width: 32
-        height: 32
+        x: 256
+        y: 128
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,19 +428,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 874b8c8df528ffb49b6061d47ea481ac
+      spriteID: 617f1d8a049ceb348b9cf56298834b6c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hand_19
+      name: Sand_128x64_15
       rect:
         serializedVersion: 2
-        x: 96
-        y: 30
-        width: 32
-        height: 32
+        x: 384
+        y: 128
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,7 +448,247 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b8477e6bfeba294e89fcf2d04eb99bd
+      spriteID: 5bb8b56b732b8024ea1ea5bcd9fca7b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992d59ae87a799246acd4dc8763037f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b46719c23cefa4eab2f74674c495fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e294b158671883d43b87f10a08737ad3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69154501f3584ca4ca8a2629343516c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f0d08dd4685f94fa93429826e133e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ba43b97f9b44e4e9899340068f1830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937c6defcb75cd24a84c97c8a90a8640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90237a88cbc49ea418187ec44e32aebc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9377914065012b2428feebfc0c574954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368be755f3b1c6d47a36b115399bee67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9342fae547d8e0144ac01c3f1e0ad7ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_128x64_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305ab3c96a8793f4b9932e0625593be6
       vertices: []
       indices: 
       edges: []
@@ -532,7 +696,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b7fd15f19f79dd14c8a835500dc7b9d1
+    spriteID: 2f9733e4c1a42554f94ed3acc0d79e1c
     vertices: []
     indices: 
     edges: []
